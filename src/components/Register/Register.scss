@@ -1,0 +1,90 @@
+@import '../../variables/Variables.scss';
+
+.register-container{
+    width: 35rem;
+    height: 50rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    box-shadow: .1rem .1rem .3rem rgba(5, 5, 5, .6);
+    
+    
+    h3{
+        font-size: 3rem;
+        font-weight: 500;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        color: $colorBlue;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        input{
+            padding: 1.4rem;
+            margin-bottom: 3rem;
+            background-color: $colorLightGrey;
+            border: none;
+            border-radius: .3rem;
+            width: 28rem;
+        }
+
+        button {
+            margin-top: -.7rem;
+            padding: 1rem;
+            width: 12rem;
+            border: none; 
+            background-color: $colorBlue;
+            color: $colorWhite;
+            border-radius: 10rem;
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
+    }
+    p{
+        text-align: center;
+        margin-block: .6rem;
+        text-transform: uppercase;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    button{
+        padding: .8rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        background-color: $colorWhite;
+        border: .2rem solid $colorLightGrey;
+        border-radius: .5rem;
+    }
+    h5{
+        text-align: center;
+        margin-top: .6rem;
+
+        a{
+            text-decoration: none;
+            color: $colorBlue;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+input::placeholder{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 45.875em) {
+    .register-container{
+        border-radius: .5rem;
+    }
+}

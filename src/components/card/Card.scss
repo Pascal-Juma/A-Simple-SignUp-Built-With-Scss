@@ -1,8 +1,15 @@
 @import '../../variables/Variables.scss';
 
 .card-container{
-    margin: 5rem;
     position: relative;
+    box-shadow: .1rem .2rem .4rem rgba(5, 5, 5, .6);
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+@media screen and (max-width: 45.875em){
+    .card-container{
+        border-radius: .5rem;
+    }
 }
 .image-wrapper{
     background-image: linear-gradient(to top, rgba(5, 5, 5, 0.1), rgba(5, 5, 5, .4)), url(../../assets/muziki.jpg);
@@ -13,6 +20,11 @@
     border-bottom-left-radius: 3rem;
     background-size: cover;
     background-position: center;
+}
+@media screen and (max-width: 45.875em){
+    .image-wrapper{
+        border-radius: .5rem;
+    }
 }
 .card-content{
     position: absolute;

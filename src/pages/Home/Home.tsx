@@ -1,5 +1,5 @@
 import Card from '../../components/card/Card'
-import Register from '../../components/sign-up/Register'    
+import Register from '../../components/Register/Register'    
 import './Home.css'
 
 function Home() {

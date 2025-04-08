@@ -1,0 +1,90 @@
+.register-container {
+  width: 35rem;
+  height: 50rem;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem rgba(5, 5, 5, 0.6);
+}
+.register-container h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  color: #0a86eb;
+}
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.register-container form input {
+  padding: 1.4rem;
+  margin-bottom: 3rem;
+  background-color: #E9E9E9;
+  border: none;
+  border-radius: 0.3rem;
+  width: 28rem;
+}
+.register-container form button {
+  margin-top: -0.7rem;
+  padding: 1rem;
+  width: 12rem;
+  border: none;
+  background-color: #0a86eb;
+  color: #FFFFFF;
+  border-radius: 10rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.register-container p {
+  text-align: center;
+  margin-block: 0.6rem;
+  text-transform: uppercase;
+}
+.register-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.register-container button {
+  padding: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: #FFFFFF;
+  border: 0.2rem solid #E9E9E9;
+  border-radius: 0.5rem;
+}
+.register-container h5 {
+  text-align: center;
+  margin-top: 0.6rem;
+}
+.register-container h5 a {
+  text-decoration: none;
+  color: #0a86eb;
+}
+.register-container h5 a:hover {
+  text-decoration: underline;
+}
+
+input::-moz-placeholder {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 45.875em) {
+  .register-container {
+    border-radius: 0.5rem;
+  }
+}/*# sourceMappingURL=Register.css.map */

@@ -2,4 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 45.875em) {
+  .home-container {
+    flex-direction: column;
+    gap: 3rem;
+    margin: 1rem;
+  }
 }/*# sourceMappingURL=Home.css.map */

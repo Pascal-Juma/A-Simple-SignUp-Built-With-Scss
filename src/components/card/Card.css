@@ -1,8 +1,15 @@
 .card-container {
-  margin: 5rem;
   position: relative;
+  box-shadow: 0.1rem 0.2rem 0.4rem rgba(5, 5, 5, 0.6);
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
 }
 
+@media screen and (max-width: 45.875em) {
+  .card-container {
+    border-radius: 0.5rem;
+  }
+}
 .image-wrapper {
   background-image: linear-gradient(to top, rgba(5, 5, 5, 0.1), rgba(5, 5, 5, 0.4)), url(../../assets/muziki.jpg);
   width: 35rem;
@@ -14,6 +21,11 @@
   background-position: center;
 }
 
+@media screen and (max-width: 45.875em) {
+  .image-wrapper {
+    border-radius: 0.5rem;
+  }
+}
 .card-content {
   position: absolute;
   top: 2%;
