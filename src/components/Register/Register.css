@@ -4,6 +4,7 @@
   border-top-right-radius: 3rem;
   border-bottom-right-radius: 3rem;
   box-shadow: 0.1rem 0.1rem 0.3rem rgba(5, 5, 5, 0.6);
+  background-color: #FFFFFF;
 }
 .register-container h3 {
   font-size: 3rem;
@@ -81,6 +82,10 @@ input::placeholder {
 
 button:hover {
   cursor: pointer;
+}
+
+.facebook-btn svg {
+  color: #0a86eb;
 }
 
 @media screen and (max-width: 45.875em) {

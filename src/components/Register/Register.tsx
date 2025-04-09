@@ -1,3 +1,5 @@
+import { FcGoogle } from "react-icons/fc";
+import { FaFacebookSquare } from "react-icons/fa";
 import './Register.css'
 
 function Register() {
@@ -16,8 +18,8 @@ function Register() {
       </form>
       <p>or</p>
       <div className="button-wrapper">
-        <button type="button">G Signin with Google</button>
-        <button type="button">F Signin with Facebook</button>
+        <button type="button"><FcGoogle /> Signin with Google</button>
+        <button type="button" className="facebook-btn"><FaFacebookSquare /> Signin with Facebook</button>
       </div>
       <h5>Already have an account? <a href="#" rel="noopener noreferer">Sign in</a>
       </h5>
